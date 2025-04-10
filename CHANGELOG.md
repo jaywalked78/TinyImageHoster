@@ -2,7 +2,7 @@
 
 All notable changes to the TinyImageHoster project will be documented in this file.
 
-## [2.0.0] - 2023-11-15
+## [2.0.0] - 2025-04-10
 
 ### Added
 - Parallel image processing using ThreadPoolExecutor
