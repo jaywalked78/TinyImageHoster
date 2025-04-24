@@ -1,10 +1,51 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Output directories
+output/
+ocr_data_*/
+payloads/
+frame_embeddings/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node.js
+node_modules/
 
 # Distribution / packaging
 .Python
@@ -26,8 +67,6 @@ wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -81,36 +120,23 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-tinyHosterVenv/
-ENV/
-env.bak/
-venv.bak/
+# Project-specific documentation and plans
+referenceDocs/
+RagStrategies/
+reorganization_plan.md
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Project-specific
+credentials/
+*.pem
+*.key
+*.crt
+*.zip
+temp/
+/tmp
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-
-# Output files
-output/json/*
-!output/json/.gitkeep
-
-# Log files
-*.log
-
-# Operating system files
-.DS_Store
-Thumbs.db 
+# Database Advanced Tokenizer specific
+.env.*
+webhook_*.json
+secrets/
+*_cache.json
+test_frames/
